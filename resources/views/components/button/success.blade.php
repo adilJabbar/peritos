@@ -1,0 +1,1 @@
+<x-button.base {{ $attributes->merge(['class' => 'inline-flex items-center justify-center text-green-700 bg-green-100  border-transparent hover:bg-green-200 hover:text-gray-800 active:bg-secondary  ']) }}>{{ $slot }}</x-button.base>

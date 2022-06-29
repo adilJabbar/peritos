@@ -1,0 +1,1 @@
+<x-button.base {{ $attributes->merge(['class' => 'bg-white border-gray-300 text-gray-700 uppercase active:bg-gray-50 active:text-gray-800 hover:bg-gray-700 hover:text-gray-200 ' . ($attributes['fullWidth'] ? 'w-full' : '')]) }}>{{ $slot }}</x-button.base>
